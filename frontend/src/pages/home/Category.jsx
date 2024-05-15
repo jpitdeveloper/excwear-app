@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 const comapanyLogo = [
     {id: 1, img: "/images/company/brand1.png"},
-    {id: 2, img: "/images/company/01.png"},
-    {id: 3, img: "/images/company/02.png"},
-    {id: 4, img: "/images/company/03.png"},
-    {id: 5, img: "/images/company/04.png"},
+    {id: 2, img: "/images/company/brand2.png"},
+    {id: 3, img: "/images/company/brand3.png"},
+    {id: 4, img: "/images/company/brand4.png"},
+    {id: 5, img: "/images/company/brand5.png"},
 ]
 
 const Category = () => {

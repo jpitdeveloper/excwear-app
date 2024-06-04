@@ -12,8 +12,8 @@ const Products = () => {
   useState(() => {
     const fetchData = async () => {
       try {
-        const respons = await fetch("products.json");
-        const data = await respons.json();
+        const response = await fetch("/products.json");
+        const data = await response.json();
         setProducts(data);
         setFilteredItems(data);
       } catch (error) {
